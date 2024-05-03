@@ -1,2 +1,2 @@
 # Utrackk
-UTRACKK IS WEBSITE THAT ALLOWS US TO CHECK THE AVAILABILTTY OF THE STAFF'S AND PROFESSORS.IT INCLUDES COMPLAINT BOX AND SECURED MARK ENTERING SYSTEM.
+UTRACKK is a website that allows us to check the availabiltty of the staff and professors.It includes complaint box and secured mark entering system.
