@@ -46,9 +46,20 @@ def other_members():
 def join_group():
     return "listing groups using search with join icon"
 
+# complaint box page
+@app.route("/complaint_box")
+def complaint_box():
+    return "complaint box form"
+
+# mark entering 
+@app.route("/enter_secured_mark")
+def enter_secured_mark():
+    return "mark entering page"
+
+#profile page
 @app.route("/profile")
 def profile():
-    return "profile with edit icon in terms of form (easy approach)"
+    return "profile with edit icon interms of form (easy approach)"
 
 if  __name__ == "__main__":
     app.run(debug=True)
