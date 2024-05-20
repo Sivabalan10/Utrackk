@@ -160,6 +160,7 @@
                         noGroupsMessage.style.color = "darkgrey";
                         noGroupsMessage.style.fontSize = "25px";
                         groupList.appendChild(noGroupsMessage);
+                        document.getElementById('loading-screen').style.display = "none";
                 } else {
                 data.forEach(group => {
                     const block = document.createElement('div');
@@ -167,10 +168,11 @@
                     block.innerHTML = `<b>${group.name}</b> <br> (${group.count} members)`;
                     block.onclick = () => open_grp(group.name);
                     groupList.appendChild(block);
+                    document.getElementById('loading-screen').style.display = "none";
                 });}
             })
             .catch(error => console.error('Error:', error));
-            document.getElementById('loading-screen').style.display = "none";
+            
     });
 
     function open_grp(grp_name){
