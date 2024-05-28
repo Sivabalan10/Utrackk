@@ -1,4 +1,4 @@
-## UTRACKK - Staff and Professor Availability Checker
+## UTRACKK - Staff Availability Checker
 
 UTRACKK is a robust web application designed to simplify the process of monitoring staff and professor availability within educational institutions. With features like a complaint box and secure mark entering system, UTRACKK offers a comprehensive solution to enhance administrative efficiency and user experience.
 
